@@ -1,25 +1,25 @@
 # Awesome 前端效能提升
 
-七个维度：
+目录：
 
- - 设计
- - 创建
- - 开发
- - 联调
- - 测试
- - 部署
- - 运营
- 
- 
-## 设计
 
+ 
+## 1. 设计
+
+
+### 原型设计
+
+相关资源：
+
+ - Balsamiq Mockups
+ - Axure
+ - Sketch
 
 ### 可视化搭建前端
 
 Why：
 
 > 
-
 
 How：
 
@@ -63,7 +63,7 @@ Why：
  - [DesignOps: Unleashing the potential of our design studio](https://www.atlassian.com/blog/inside-atlassian/designops-atlassian-design-studio)
  - [What is design operations and why should you care?](https://medium.com/designer-hangout/what-is-design-operations-and-why-should-you-care-b72f02b47761)
 
-## 创建
+## 2. 创建
 
 ### 脚手架
 
@@ -71,7 +71,7 @@ Why：
 
 #### CLI 脚手架
 
-## 开发 
+## 3. 开发 
 
 ### 代码模式库
 
@@ -94,25 +94,53 @@ Why：
  - [Swagger](https://github.com/swagger-api/swagger-ui)
  - [Moco](https://github.com/dreamhead/moco)
 
-### 编辑器插件
+### 编辑器/IDE 插件
 
-## 联调
+
+### 浏览器插件
+
+相关类型：
+
+ - 
+
+### 性能工具
+
+## 4. 联调
 
 ### 统一 UI 接口
 
-## 测试
+### 自动化契约测试
+
+Why: 在实施前后端分离架构的过程中，最让人苦恼的莫过于：API 发生了变化。API 发生变化的原因那可是相当的丰富：业务变化、字段名出错、第三方接口不匹配等等。
+
+> 
+
+相关资源：
+
+ - [前后端分离：使用 mest 做契约测试跟踪 API 接口变更](https://www.phodal.com/blog/frontend-contract-test-use-mest-way/)
+
+## 5. 测试
 
 ### E2E 测试
 
-## 部署
+## 6. 部署
 
 
 
-## 运营
+## 7. 运营
 
 
 ### 错误日志跟踪
 
+Why:
+
+> 
+
+How：
+
+相关文章：
+
+ - [前端代码异常监控实战](https://github.com/happylindz/blog/issues/5)
 
 ## 其它 
 
