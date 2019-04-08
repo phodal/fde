@@ -13,18 +13,21 @@
  
 ## 设计
 
-### 设计系统
+
+### 可视化搭建前端
+
+Why：
+
+> 
 
 
-## 创建
+How：
 
-### 脚手架
+示例：
 
-#### GUI 脚手架  
+ - [飞冰](https://github.com/alibaba/ice) 是一套综合解决方案，用来极速构建中后台应用。
 
-#### CLI 脚手架
-
-## 开发 
+相关文章：
 
 ### 设计系统（Design System）
 
@@ -50,6 +53,8 @@
 
 ### Design System Ops
 
+Why：
+
 > **Design System Ops**，允许整个组织的人员设计、重新设计和改进产品，而不会失去质量，可用性和一致性。
 
 相关文章：
@@ -58,10 +63,38 @@
  - [DesignOps: Unleashing the potential of our design studio](https://www.atlassian.com/blog/inside-atlassian/designops-atlassian-design-studio)
  - [What is design operations and why should you care?](https://medium.com/designer-hangout/what-is-design-operations-and-why-should-you-care-b72f02b47761)
 
+## 创建
+
+### 脚手架
+
+#### GUI 脚手架  
+
+#### CLI 脚手架
+
+## 开发 
 
 ### 代码模式库
 
 ### Mock Server
+
+Why：
+
+> Mock Server（仿造服务器），即用于仿造后端接口的模拟 HTTP 服务器。它是一个简单的 HTTP 服务，在后端未准备好的情况下，它可以为前端提供一个可用的 API 服务。
+
+模式：
+
+ - **普通 Mock Server**。在 API 配置文件中定义了什么，便返回什么内容。
+ - **DSL 形式的 Mock Server**。它是以普通的 Mock Server 有所不同，其中的配置文件（通常是 JSON）是通过特定格式编写的，返回的数据只是 API 配置的一部分。
+ - **编程型 Mock Server。它需要我们编写简单的代码，才能返回对应的 API 数据。它的优点是灵活性更高，但是缺点便是维护成本更高。
+ - **契约测试**，又称之为消费者驱动的契约测试（Consumer-Driven Contracts，简称 CDC），是指从消费者业务实现的角度出发，驱动出契约，再基于契约，对提供者验证的一种测试方式。
+
+相关资源：
+
+ - [Faker.js](https://github.com/marak/Faker.js/)
+ - [Swagger](https://github.com/swagger-api/swagger-ui)
+ - [Moco](https://github.com/dreamhead/moco)
+
+### 编辑器插件
 
 ## 联调
 
