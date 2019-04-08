@@ -37,6 +37,8 @@
 
 如何做：
 
+ - [Design Systems at GitHub](https://medium.com/@broccolini/design-systems-at-github-c8e5378d2542)
+
 示例：
 
  - [Material Design](https://material.io/design/)
@@ -53,8 +55,6 @@
 
 ### Design System Ops
 
-Why：
-
 > **Design System Ops**，允许整个组织的人员设计、重新设计和改进产品，而不会失去质量，可用性和一致性。
 
 相关文章：
@@ -66,11 +66,7 @@ Why：
 
 ### 可视化搭建前端
 
-Why：
-
-> 
-
-How：
+> 可视化搭建前端，是指通过推拽的方式，在线创建和生成前端界面。
 
 示例：
 
@@ -188,23 +184,27 @@ Why: 在实施前后端分离架构的过程中，最让人苦恼的莫过于：
 
  - [Pinpoint](https://github.com/naver/pinpoint)
 
+相关文章：
+ 
+ - [Browser Monitoring for GitHub.com](https://github.blog/2015-05-19-browser-monitoring-for-github-com/)
 
 ### 错误日志跟踪
 
-Why:
-
-> 
+> 有很多种情况会导致Javascript抛出异常，包括网络失效、语法错误、运行时错误等。我们希望在页面上有异常发生时，能够获得脚本错误的基本信息、文件url、行号 。
 
 How：
 
 相关文章：
 
+ - [Capture and report JavaScript errors with window.onerror](https://blog.sentry.io/2016/01/04/client-javascript-reporting-window-onerror)
+ - [前端异常监控系统的落地](https://zhuanlan.zhihu.com/p/26085642)
  - [前端代码异常监控实战](https://github.com/happylindz/blog/issues/5)
 
 相关资源：
 
  - [BetterJS](https://github.com/BetterJS) 是一个 Web 前端脚本错误监控及跟踪解决方案。该项目为鹅厂 imweb 团队的开源项目。
  - [badjs2](https://github.com/iv-web/badjs2) 是一个前端脚本错误监控及跟踪解决方案。
+ - [Sentry](https://github.com/getsentry/sentry)
 
 ## 其它 
 
@@ -235,6 +235,12 @@ AlloyTeam 内部都有对应的解决方案：
  - Sentry 错误监控平台
  - AlloyKit 离线包发布平台
  - XuanWu 直出平台
+
+### Frontend Case Stuies
+
+> 介绍真实世界的企业前端架构。
+
+[https://github.com/andrew--r/frontend-case-studies](https://github.com/andrew--r/frontend-case-studies)
 
 License
 ---
