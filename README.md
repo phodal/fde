@@ -7,27 +7,25 @@
 ## 1. 设计
 
 
-### 原型设计
+### 原型
 
-相关资源：
+> 原型，是指某种新技术在投入量产之前的所作的模型，用以检测产品质量，保障正常运行。
+
+分类：
+
+ - **验证原型** 用于验证最初设计的一些关键功能，没有最终产品的所有功能。
+ - **工作原型** 最终产品所有的或几乎所有的功能。
+ - **视觉原型** 预期设计的尺寸和外观，而不是功能。
+ - **形态原型** 是初期的视觉原型，强调其中设计的几何特征，不是很重视颜色，纹理，或其他与最终外观相关的属性。
+ - **使用者体验原型** 在功能与外观上相当完整的原型，可以用于使用者研究。
+ - **功能原型** 完成设计上所要求的功能和外观，但可能是与最终设计使用不同的技术和不同的尺寸来创建。
+ - **纸上原型** 印刷的或手绘的软件产品之使用者界面。这些原型通常用于设计软件时，在早期的设计阶段时进行软件功能盘点，以便在投入更多耗费成本的设计之前，先确认设计决策是否正确。
+
+相关工具：
 
  - Balsamiq Mockups
  - Axure
  - Sketch
-
-### 可视化搭建前端
-
-Why：
-
-> 
-
-How：
-
-示例：
-
- - [飞冰](https://github.com/alibaba/ice) 是一套综合解决方案，用来极速构建中后台应用。
-
-相关文章：
 
 ### 设计系统（Design System）
 
@@ -62,6 +60,22 @@ Why：
  - [DesignOps at Airbnb: How we manage effective design at scale](https://airbnb.design/designops-airbnb/)
  - [DesignOps: Unleashing the potential of our design studio](https://www.atlassian.com/blog/inside-atlassian/designops-atlassian-design-studio)
  - [What is design operations and why should you care?](https://medium.com/designer-hangout/what-is-design-operations-and-why-should-you-care-b72f02b47761)
+
+
+### 可视化搭建前端
+
+Why：
+
+> 
+
+How：
+
+示例：
+
+ - [飞冰](https://github.com/alibaba/ice) 是一套综合解决方案，用来极速构建中后台应用。
+
+相关文章：
+
 
 ## 2. 创建
 
@@ -135,9 +149,10 @@ Intellij IDEA 相关资源：
 
 ### 浏览器插件
 
-相关类型：
+相关插件类型：
 
- - 
+ - Developer Tools.
+ - API 验证。诸如 Postman
 
 ### 性能工具
 
@@ -149,21 +164,27 @@ Intellij IDEA 相关资源：
 
 Why: 在实施前后端分离架构的过程中，最让人苦恼的莫过于：API 发生了变化。API 发生变化的原因那可是相当的丰富：业务变化、字段名出错、第三方接口不匹配等等。
 
-> 
+> 契约测试，又称之为**消费者驱动的契约测试**(Consumer-Driven Contracts，简称CDC)，根据消费者驱动契约，我们可以将服务分为消费者端和生产者端，而消费者驱动的契约测试的核心思想在于：从消费者业务实现的角度出发，由消费者自己会定义需要的数据格式以及交互细节，并驱动生成一份契约文件。然后生产者根据契约文件来实现自己的逻辑，并在持续集成环境中持续验证。
 
 相关资源：
 
  - [前后端分离：使用 mest 做契约测试跟踪 API 接口变更](https://www.phodal.com/blog/frontend-contract-test-use-mest-way/)
+ - [服务下的契约测试 (CDC) 解读](https://testerhome.com/topics/10806)
 
 ## 5. 测试
 
 ### E2E 测试
 
-## 6. 部署
+## 6. 运营
 
 
+### 应用性能监测
 
-## 7. 运营
+> APM （Application Performance Management，即应用性能管理，在分布式领域也称为分布式跟踪管理）对企业的应用系统进行实时监控，它是用于实现对应用程序性能管理和故障管理的系统化的解决方案。
+
+相关资源：
+
+ - [Pinpoint](https://github.com/naver/pinpoint)
 
 
 ### 错误日志跟踪
@@ -177,6 +198,11 @@ How：
 相关文章：
 
  - [前端代码异常监控实战](https://github.com/happylindz/blog/issues/5)
+
+相关资源：
+
+ - [BetterJS](https://github.com/BetterJS) 是一个 Web 前端脚本错误监控及跟踪解决方案。该项目为鹅厂 imweb 团队的开源项目。
+ - [badjs2](https://github.com/iv-web/badjs2) 是一个前端脚本错误监控及跟踪解决方案。
 
 ## 其它 
 
