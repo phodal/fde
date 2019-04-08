@@ -29,7 +29,7 @@
 
 ### 设计系统（Design System）
 
-![设计系统](images/design-system.png)
+![设计系统](images/design-system.jpg)
 
 目的（Why）：
 
