@@ -1,4 +1,4 @@
-# Awesome 前端研发效能提升
+# Awesome 前端效能
 
 目录：
 
@@ -67,9 +67,16 @@ Why：
 
 ### 脚手架
 
-#### GUI 脚手架  
+>  **脚手架**。作为一个基础的模块应用，用于快速生成、搭建前端应用。它除了包含一个前端项目所需要的要素，往往还包含着组织内部相关的规范和模式，如部署模板、构建系统等。
 
-#### CLI 脚手架
+类型：
+
+ - GUI 脚手架。
+ - CLI 脚手架。
+
+相关文章：
+
+ - [How to build your own React boilerplate](https://medium.freecodecamp.org/how-to-build-your-own-react-boilerplate-2f8cbbeb9b3f)
 
 ### 快速工作平台
 
@@ -82,6 +89,16 @@ How：通过 CLI 生成。
 ## 3. 开发 
 
 ### 代码模式库
+
+> 模式库，是一系列可复用代码的合集，如前端的组件，通用的工具函数等等。其目的是在多个应用之间共享代码，以降低修改成本。在设计架构的时候，要是考虑内建相应的 UI 组件库，便需要考虑结合装饰器模式，作为一层代理，来封装外部的 API，以降低后期的修改成本。它还包含了用于多个前端应用通讯的**数据通讯**库。
+
+
+相关资源：[Vanilla.js Boilerplates](https://vanillajstoolkit.com/boilerplates/)
+
+相关文章：
+ 
+ - [Creating your own vanilla JS helper library like Lodash and Underscore.js](https://gomakethings.com/creating-your-own-vanilla-js-helper-library-like-lodash-and-underscore.js/)
+ - [How to create your own vanilla JS DOM manipulation library like jQuery](https://gomakethings.com/how-to-create-your-own-vanilla-js-dom-manipulation-library-like-jquery/)
 
 ### Mock Server
 
@@ -104,6 +121,17 @@ Why：
 
 ### 编辑器/IDE 插件
 
+> 编辑器/IDE 插件，用于在 IDE/编辑器插件中，集成文档、常用代码等相关内容。
+
+Intellij IDEA 相关资源：
+
+ - [Creating Your First Plugin](http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started.html)
+ - [Creating a Plugin Project](https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/creating_plugin_project.html)
+
+ VisualCode Studio 相关资源：
+
+  - [Your First Extension](https://code.visualstudio.com/api/get-started/your-first-extension)
+  - [Snippet Guide](https://code.visualstudio.com/api/language-extensions/snippet-guide)
 
 ### 浏览器插件
 
