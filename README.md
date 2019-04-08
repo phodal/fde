@@ -71,6 +71,14 @@ Why：
 
 #### CLI 脚手架
 
+### 快速工作平台
+
+Why：搭建环境不是一件容易的事。
+
+>
+
+How：通过 CLI 生成。
+
 ## 3. 开发 
 
 ### 代码模式库
@@ -146,7 +154,31 @@ How：
 
 ### 相关文章
 
+**效能**：
+
+ - [十倍效能提升——Web 基础研发体系的建立](http://www.cnblogs.com/sskyy/p/8613393.html)
+
+**度量**
+
+ - [如何衡量研发效能？阿里资深技术专家提出了5组指标](https://yq.aliyun.com/articles/690725)。关键字：持续发布能力、需求响应周期、交付吞吐率、交付过程质量、对外交付质量。
+
 ### 相关资源
+
+### AlloyTeam
+
+来源：[https://github.com/Pines-Cheng/think/issues/32](https://github.com/Pines-Cheng/think/issues/32)
+
+AlloyTeam 内部都有对应的解决方案：
+
+ - Steamer 命令行工具及脚手架
+ - AlloyStore 组件展示平台
+ - LinkStar 假数据联调平台
+ - JB 测试部署平台
+ - Ars 发布上线平台
+ - AlloyData 数据上报平台
+ - Sentry 错误监控平台
+ - AlloyKit 离线包发布平台
+ - XuanWu 直出平台
 
 License
 ---
