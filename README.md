@@ -72,6 +72,18 @@
 
 相关文章：
 
+### 架构
+
+普通相关资源：
+
+ - [zoid](https://github.com/krakenjs/zoid) 跨域组件工具集
+ - [post-robot](https://github.com/krakenjs/post-robot)  客户端跨域 post-messaging 
+
+微前端相关资源：
+
+ - [Mooa](https://github.com/phodal/mooa) Angular 微前端框架
+ - [single-spa](https://github.com/CanopyTax/single-spa) 跨前端工具集
+ - [Stencil](https://stenciljs.com/) 跨前端框架组件库
 
 ## 2. 创建
 
@@ -150,7 +162,34 @@ Intellij IDEA 相关资源：
  - Developer Tools.
  - API 验证。诸如 Postman
 
-### 性能工具
+
+### 性能分析与优化
+
+检查清单：
+  
+   - [Front-End Performance Checklist](https://github.com/thedaviddias/Front-End-Performance-Checklist)
+   - 中文版：[2018 前端性能优化清单](https://github.com/xitu/gold-miner/blob/master/TODO/front-end-performance-checklist-2018-4.md)
+
+要点：
+
+ - TTFB （Time to first byte）时间
+ - 
+
+
+常规优化：
+
+ - [Essential Image Optimization](https://images.guide/) 图片优化完全指南。
+
+企业级相关文章：
+
+ - [Case study: analyzing the Walmart site performance](https://iamakulov.com/notes/walmart/)
+ - [A Tinder Progressive Web App Performance Case Study](https://medium.com/@addyosmani/a-tinder-progressive-web-app-performance-case-study-78919d98ece0)
+ - [A Pinterest Progressive Web App Performance Case Study](https://medium.com/dev-channel/a-pinterest-progressive-web-app-performance-case-study-3bd6ed2e6154)
+ - [Twitter Lite and High Performance React Progressive Web Apps at Scale](https://medium.com/@paularmstrong/twitter-lite-and-high-performance-react-progressive-web-apps-at-scale-d28a00e780a3)
+
+构建时优化：
+
+ - [Keep webpack Fast: A Field Guide for Better Build Performance](https://slack.engineering/keep-webpack-fast-a-field-guide-for-better-build-performance-f56a5995e8f1)
 
 
 ## 4. 联调
@@ -173,7 +212,6 @@ Why: 在实施前后端分离架构的过程中，最让人苦恼的莫过于：
 ### E2E 测试
 
 ## 6. 运营
-
 
 ### 应用性能监测
 
@@ -204,6 +242,13 @@ How：
  - [BetterJS](https://github.com/BetterJS) 是一个 Web 前端脚本错误监控及跟踪解决方案。该项目为鹅厂 imweb 团队的开源项目。
  - [badjs2](https://github.com/iv-web/badjs2) 是一个前端脚本错误监控及跟踪解决方案。
  - [Sentry](https://github.com/getsentry/sentry)
+
+## 7. 维护？（待定）
+
+### 架构迁移
+
+
+### 重写
 
 ## 其它 
 
