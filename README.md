@@ -170,23 +170,29 @@ Intellij IDEA 相关资源：
  - Developer Tools.
  - API 验证。诸如 Postman
 
-
 ### 性能分析与优化
 
 检查清单：
-  
-   - [Front-End Performance Checklist](https://github.com/thedaviddias/Front-End-Performance-Checklist)
-   - 中文版：[2018 前端性能优化清单](https://github.com/xitu/gold-miner/blob/master/TODO/front-end-performance-checklist-2018-4.md)
+
+ - [Front-End Performance Checklist](https://github.com/thedaviddias/Front-End-Performance-Checklist)
 
 要点：
 
  - TTFB （Time to first byte）时间
- - 
 
+相关工具：
+ 
+ - Chrome Lighthouse/Audits （Chrome Developer Tools 的 Audits 标签里）
 
 常规优化：
 
  - [Essential Image Optimization](https://images.guide/) 图片优化完全指南。
+ - [前端性能量化标准](https://github.com/frontend9/fe9-library/issues/7)
+ - [前端性能优化の备忘录](https://www.w3ctech.com/topic/2089)
+ - [如何使用 Timeline 工具](https://developers.google.com/web/tools/chrome-devtools/evaluate-performance/timeline-tool?hl=zh-cn) Google 官方的 Timeline API 使用。
+ - [7 天打造前端性能监控系统](http://fex.baidu.com/blog/2014/05/build-performance-monitor-in-7-days/)。来自百度 FEX 的文章，从 What、How、What 等几个维度，详细介绍了 Web 前端性能优化。
+ - 中文版：[2018 前端性能优化清单](https://github.com/xitu/gold-miner/blob/master/TODO/front-end-performance-checklist-2018-4.md)
+ - [Lighthouse 与 Google 的移动端最佳实践](https://juejin.im/post/5a7ec3eaf265da4e9449af03)
 
 企业级相关文章：
 
@@ -198,7 +204,6 @@ Intellij IDEA 相关资源：
 构建时优化：
 
  - [Keep webpack Fast: A Field Guide for Better Build Performance](https://slack.engineering/keep-webpack-fast-a-field-guide-for-better-build-performance-f56a5995e8f1)
-
 
 ## 4. 联调
 
@@ -236,6 +241,11 @@ Why: 在实施前后端分离架构的过程中，最让人苦恼的莫过于：
 
 ### 性能测试
 
+相关文章：
+
+ - [前端性能优化之性能测试](https://juejin.im/post/5a41abb35188252a3d383eb8)
+ - [Getting Up To Speed With High Performance Web](https://blog.prototypr.io/getting-up-to-speed-with-high-performance-web-58b740042892)
+
 
 ### 可视化回归测试
 
@@ -246,7 +256,6 @@ Why: 在实施前后端分离架构的过程中，最让人苦恼的莫过于：
 相关工具：
 
  - snapshot testing
-
 
 ## 6. 运营
 
