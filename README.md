@@ -1,6 +1,14 @@
 # 前端体系规划指南
 
 欢迎在 issue 中留下你的相关建议。
+
+原则：
+
+ 1. Reusable （包含可重用 UI 设计）
+ 2. Responsive（快速发布周期）
+ 3. Quality （质量控制）
+ 4. Cross-Platform 跨平台（响应式设计，混合应用）
+ 5. Communication（减少沟通成本，UX 和开发）
  
 ## 1. 设计
 
@@ -225,6 +233,20 @@ Why: 在实施前后端分离架构的过程中，最让人苦恼的莫过于：
 相关资源：
 
  - [Covering A/B tests with UI tests: How to avoid getting tangled up in your own code](https://badootech.badoo.com/covering-ab-tests-with-ui-testing-1df5401ff0e1)
+
+### 性能测试
+
+
+### 可视化回归测试
+
+> 可视化回归测试工具，通过捕获网页 /UI的屏幕截图，并将其与原始图像（历史基线屏幕截图或来自实时网站的参考图像）进行比较，来执行前端或用户界面（UI）回归测试。
+
+相关 Awesome 资源：[Awesome Visual Regression Testing](https://github.com/mojoaxel/awesome-regression-testing)
+
+相关工具：
+
+ - snapshot testing
+
 
 ## 6. 运营
 
