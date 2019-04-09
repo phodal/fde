@@ -218,13 +218,13 @@ Why: 在实施前后端分离架构的过程中，最让人苦恼的莫过于：
 
 ## 5. 测试
 
-![前端测试金字塔](images/fe-test-primard.png)
+<img width="400" alt="前端测试金字塔" src="images/fe-test-primard.png">
 
 ### 前端测试
 
 相关资源：
 
- -[Covering A/B tests with UI tests: How to avoid getting tangled up in your own code](https://badootech.badoo.com/covering-ab-tests-with-ui-testing-1df5401ff0e1)
+ - [Covering A/B tests with UI tests: How to avoid getting tangled up in your own code](https://badootech.badoo.com/covering-ab-tests-with-ui-testing-1df5401ff0e1)
 
 ## 6. 运营
 
