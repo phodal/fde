@@ -196,6 +196,15 @@ Intellij IDEA 相关资源：
 
 ### 统一 UI 接口
 
+Why:
+
+> 
+
+相关资源：
+
+ - [Shopify GraphQL Design Tutorial](https://github.com/Shopify/graphql-design-tutorial/blob/master/TUTORIAL.md)
+ - [RESTful API Design Tips from Experience](https://medium.com/studioarmix/learn-restful-api-design-ideals-c5ec915a430f)
+
 ### 自动化契约测试
 
 Why: 在实施前后端分离架构的过程中，最让人苦恼的莫过于：API 发生了变化。API 发生变化的原因那可是相当的丰富：业务变化、字段名出错、第三方接口不匹配等等。
@@ -209,7 +218,13 @@ Why: 在实施前后端分离架构的过程中，最让人苦恼的莫过于：
 
 ## 5. 测试
 
-### E2E 测试
+![前端测试金字塔](images/fe-test-primard.png)
+
+### 前端测试
+
+相关资源：
+
+ -[Covering A/B tests with UI tests: How to avoid getting tangled up in your own code](https://badootech.badoo.com/covering-ab-tests-with-ui-testing-1df5401ff0e1)
 
 ## 6. 运营
 
