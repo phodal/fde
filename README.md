@@ -95,7 +95,7 @@
 
 ## 2. 创建
 
-### 脚手架
+### 脚手架/生成器
 
 >  **脚手架**。作为一个基础的模块应用，用于快速生成、搭建前端应用。它除了包含一个前端项目所需要的要素，往往还包含着组织内部相关的规范和模式，如部署模板、构建系统等。
 
@@ -103,6 +103,8 @@
 
  - GUI 脚手架。
  - CLI 脚手架。
+
+> **生成器**，可以根据一系列的配置参数，以实现更强的定制化作用。它是一种更高级的脚手架的方式来创建应用。
 
 相关文章：
 
@@ -207,9 +209,9 @@ Intellij IDEA 相关资源：
 
 ## 4. 联调
 
-### 统一 UI 接口
+### 统一 API 接口
 
-Why:
+Why: 后端设计的接口，并不一定适用于前端使用。这便要求前端对后端有一定的了解，以协助后端设计出适合前端使用的 API。
 
 > 
 
@@ -245,7 +247,6 @@ Why: 在实施前后端分离架构的过程中，最让人苦恼的莫过于：
 
  - [前端性能优化之性能测试](https://juejin.im/post/5a41abb35188252a3d383eb8)
  - [Getting Up To Speed With High Performance Web](https://blog.prototypr.io/getting-up-to-speed-with-high-performance-web-58b740042892)
-
 
 ### 可视化回归测试
 
@@ -328,9 +329,9 @@ AlloyTeam 内部都有对应的解决方案：
 
 ### Frontend Case Stuies
 
-> 介绍真实世界的企业前端架构。
+** [https://github.com/andrew--r/frontend-case-studies](https://github.com/andrew--r/frontend-case-studies) 这个项目介绍了真实世界的企业前端架构，包含了一系列的相关案例。
 
-[https://github.com/andrew--r/frontend-case-studies](https://github.com/andrew--r/frontend-case-studies)
+***** [卫报 前端文档](https://github.com/guardian/frontend/tree/master/docs) 该项目不仅包含了卫报的前端代码，以及相关的详细设计文档。
 
 License
 ---
