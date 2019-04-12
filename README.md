@@ -33,6 +33,11 @@
  - Axure
  - Sketch
 
+相关文章：
+
+ - [The Front-End Design Checklist](https://codeburst.io/the-front-end-design-checklist-4dd15828fad)
+ - [How to write a good software design doc](https://medium.freecodecamp.org/how-to-write-a-good-software-design-document-66fcf019569c)
+
 ### 设计系统（Design System）
 
 ![设计系统](images/design-system.jpg)
@@ -86,12 +91,18 @@
 
  - [zoid](https://github.com/krakenjs/zoid) 跨域组件工具集
  - [post-robot](https://github.com/krakenjs/post-robot)  客户端跨域 post-messaging 
+ - [Resources about Front-end Architecture and Design Systems, etc.](https://notlaura.com/resources-about-front-end-architecture-and-design-systems-etc/)
+ - [AWS Architect Patterns Archives](http://www.dcsolutionfactory.ca/dcsf/aws-patterns/)
 
 微前端相关资源：
 
  - [Mooa](https://github.com/phodal/mooa) Angular 微前端框架
  - [single-spa](https://github.com/CanopyTax/single-spa) 跨前端工具集
  - [Stencil](https://stenciljs.com/) 跨前端框架组件库
+
+相关文章：
+
+ - [Scalable Frontend #2 — Common Patterns](https://blog.codeminer42.com/scalable-frontend-2-common-patterns-d2f28aef0714)
 
 ## 2. 创建
 
@@ -294,6 +305,10 @@ How：
 
 ### 架构迁移
 
+相关文章：
+
+ - [Rearchitecting Airbnb’s Frontend](https://medium.com/airbnb-engineering/rearchitecting-airbnbs-frontend-5e213efc24d2)
+ - [Moving Airbnb Search to React](https://medium.com/airbnb-engineering/moving-airbnb-search-to-react-b85b815e166c)
 
 ### 重写
 
