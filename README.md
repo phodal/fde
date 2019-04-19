@@ -182,6 +182,23 @@ Intellij IDEA 相关资源：
 
  - Developer Tools.
  - API 验证。诸如 Postman
+ 
+### 调试 Debug 工具
+
+代理调试：不管是在开发过程中，还是实际的线上 Debug 中，都需要查看、修改 HTTP/HTTPS、WebSocket 的请求、响应，同时也需要 HTTP/HTTPS 代理服务，把实际的域名，代理到本地测试服务器用于调试。
+
+相关工具：
+
+ - [Whistle](https://wproxy.org/whistle/)
+ - [Charles](https://www.charlesproxy.com/)
+ - [Fiddler](https://www.telerik.com/fiddler)
+
+移动端调试：在 APP 中或者在移动浏览器调试网页，没有类似 Chrome Developer Tools 的调试工具，无法方便的查看请求，打印到 Console 等常规调试方法。
+
+相关工具：
+
+ - [vConsole](https://github.com/Tencent/vConsole)
+ - [eruda](https://github.com/liriliri/eruda)
 
 ### 性能分析与优化
 
