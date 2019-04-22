@@ -11,6 +11,8 @@
 1. 全流程 DevOps
 2. 跨职能团队
 
+参考：微服务 12 要素：[Twelve-Factor App](https://12factor.net/zh_cn/)
+
 难点：
 
 1. 如何度量？
@@ -102,6 +104,10 @@ Stage 1 用户场景
  - 
 
 ## 测试
+
+Brian Marick 的敏捷测试四象限
+
+![敏捷测试四象限](images/agile-testing-quadrants.png)
 
 痛点：
  
